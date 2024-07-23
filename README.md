@@ -1,21 +1,21 @@
-#movie theatre
-Features
-Movie Listings: Display a list of movies showing with basic details such as title, poster, runtime, showtime, and available tickets.
-Movie Details: Clicking on a movie from the list shows detailed information including runtime, showtime, available tickets, and a buy ticket button.
-Ticket Purchase: Users can purchase tickets for available showtimes. The application dynamically updates ticket availability and disables the buy button when sold out.
-Responsive Design: The application is designed to be responsive and accessible across different devices.
-Project Structure
-The project consists of the following main files and directories:
+#Flatdango Movie Ticket Booking App
+Flatdango is a web application that allows users to browse and purchase movie tickets from Flatiron Movie Theater. This application fetches movie data from a local JSON server and provides an interface for users to view movie details, check showtimes, and buy tickets.
 
-index.html: HTML file containing the structure of the web page.
-style.css: CSS file for styling the application.
-index.js: JavaScript file for dynamic content loading and interaction with the server.
-README.md: This file, providing an overview of the project.
-Open the application:
+#Features
+Core Features:
+View Movie Details:
 
-Open your web browser and navigate to http://localhost:3000 (or another specified port).
+When the page loads, details of the first movie are displayed, including poster, title, runtime, showtime, and available tickets.
+Available tickets are dynamically calculated based on the theater's capacity and tickets already sold.
+Movie Menu:
 
-Interact with the application:
+A menu on the left side (ul#films element) lists all available movies.
+Each movie in the menu shows basic information and can be styled using film item class.
+Purchase Tickets:
 
-Click on a movie title to view its details.
-Purchase tickets by clicking the "Buy Ticket" button (if available).
+Users can click a "Buy Ticket" button to purchase a ticket for a movie.
+The number of available tickets updates dynamically on the frontend.
+License
+This project is licensed under the MIT License.
+Authors
+BENSON MWANGI - Initial work
